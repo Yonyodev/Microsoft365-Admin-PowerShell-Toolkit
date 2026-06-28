@@ -1,0 +1,45 @@
+# PowerShell temporary and local files
+*.ps1xml
+*.pssc
+*.psrc
+*.psm1.bak
+*.ps1.bak
+
+# Logs and exports
+*.log
+*.csv
+*.xlsx
+*.json
+*.xml
+*.txt
+
+# Keep sample files if they are inside examples/
+!examples/**/*.csv
+!examples/**/*.json
+!examples/**/*.txt
+
+# Secrets and environment files
+.env
+*.env
+secrets.*
+credentials.*
+*.key
+*.pem
+*.pfx
+
+# VS Code settings
+.vscode/
+!.vscode/extensions.json
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# PowerShell module output / build folders
+bin/
+obj/
+out/
+dist/
